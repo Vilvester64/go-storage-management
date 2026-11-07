@@ -1,0 +1,31 @@
+# Binaries & Executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+main
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Physical storage directory
+uploads/*
+!uploads/.gitkeep
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Test artifacts
+*.out
+coverage.html
+
+# Frontend build & caches
+storage-frontend/.next/
+storage-frontend/node_modules/
+storage-frontend/.env.local
