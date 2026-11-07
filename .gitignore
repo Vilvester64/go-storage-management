@@ -29,3 +29,14 @@ coverage.html
 storage-frontend/.next/
 storage-frontend/node_modules/
 storage-frontend/.env.local
+
+# Archives / raw bundles
+*.zip
+
+# Ignore documentation & markdown files except README.md
+docs/
+**/*.md
+*.md
+!README.md
+!**/README.md
+
